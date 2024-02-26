@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(Img/blockchain.gif);
+    background-attachment: fixed; /* Fijar la imagen de fondo */
+    background-size: cover; /* Cubrir todo el área visible del cuerpo */
+}
+
+header{
+    text-align: center;
+    width: 100%;    
+}
+
+h1{
+    font-family: 'Pixelify Sans', sans-serif;  font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgba(205, 255, 255, .50);
+    color: white;     
+}
+
+.container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.EntradaTexto{
+    position: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 40%;
+    margin: 1% 1% 0.5% 0%;
+    background-color: rgba(255, 255, 255, 0.85);
+    font-size: x-large;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+
+.SalidaTexto{
+    position: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 40%;
+    margin: 1% 1% 0.5% 0%;
+    background-color: rgba(255, 255, 255, 0.85);
+    font-size: x-large;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+
+.boton{
+    align-items: center;
+    justify-content: center;
+    margin: 0.3%;
+    padding: 2%;
+    width: 25%;
+    background-color: #d1fdff;
+    border-radius: 5px;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: large;
+    line-height: normal;
+    text-align: center;
+    color: rgb(0, 38, 82);
+}
+
+.boton:hover{
+    margin: 0.3%;    
+    width: 24.5%;
+    padding: 1.8%;
+}
+
+.boton:active{
+    background-color: #002333;
+    color: white;
+    transform: translateY(2px);
+}
