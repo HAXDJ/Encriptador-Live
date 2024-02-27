@@ -94,6 +94,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function esTextoEncriptado(texto) {
         // Verificar si el texto contiene palabras encriptadas
-        return /ai|enter|imes|ober|ufat|AI|ENTER|IMES|OBER|UFAT/.test(texto);
+        return /ai|enter|imes|ober|ufat|AI|ENTER|IMES|OBER|UFAT|aí|entér|imés|obér|ufát|ÁI|ÉNTER|ÍMES|ÓBER|ÚFAT/.test(texto);
     }
 });
